@@ -1,0 +1,17 @@
+{
+  "name": "fem-time-tracking-dashboard-main",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "SuzuMantan"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  }
+}
