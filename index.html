@@ -24,26 +24,38 @@
   </head>
   <body>
     <main class="container">
-      <div class="card profile">
-        <div class="user">
-          <img class="user-image" src="/images/image-jeremy.png" alt="" />
-          <div class="user-details">
-            Report for
-            <h1>Jeremy Robinson</h1>
+      <div class="grid-container">
+        <div class="card profile">
+          <div class="user">
+            <img class="user-image" src="/images/image-jeremy.png" alt="" />
+            <div class="user-details">
+              Report for
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <ul class="timeframe" role="list">
+            <li><button value="daily">Daily</button></li>
+            <li><button value="weekly">Weekly</button></li>
+            <li><button class="selected" value="monthly">Montly</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Inserting Element through JavaScript -->
+      <!-- 
+      <div class="card work">
+        <div class="data-wrapper">
+          <div class="title">
+            <h2>Work</h2>
+            <img src="/public/images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="time">
+            <h2 class="curr-time">32hrs</h2>
+            <span class="prev-time">Last Week - 36hrs</span>
           </div>
         </div>
-        <ul class="timeframe">
-          <li>Daily</li>
-          <li>Weekly</li>
-          <li>Monthly</li>
-        </ul>
-      </div>
-      <div class="card work"></div>
-      <div class="card play"></div>
-      <div class="card study"></div>
-      <div class="card exercise"></div>
-      <div class="card social"></div>
-      <div class="card self-care"></div>
+      </div> 
+      -->
     </main>
     <script src="/src/main.ts" type="module"></script>
   </body>
