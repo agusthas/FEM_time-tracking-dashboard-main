@@ -172,42 +172,42 @@ body {
 }
 
 .card.work {
-  background-image: url('/public/images/icon-work.svg');
+  background-image: url('/images/icon-work.svg');
   background-repeat: no-repeat;
   background-color: var(--clr-work);
   background-position: top -12px right 20px;
 }
 
 .card.play {
-  background-image: url('/public/images/icon-play.svg');
+  background-image: url('/images/icon-play.svg');
   background-repeat: no-repeat;
   background-color: var(--clr-play);
   background-position: top -12px right 20px;
 }
 
 .card.study {
-  background-image: url('/public/images/icon-study.svg');
+  background-image: url('/images/icon-study.svg');
   background-repeat: no-repeat;
   background-color: var(--clr-study);
   background-position: top -12px right 20px;
 }
 
 .card.exercise {
-  background-image: url('/public/images/icon-exercise.svg');
+  background-image: url('/images/icon-exercise.svg');
   background-repeat: no-repeat;
   background-color: var(--clr-exercise);
   background-position: top -12px right 20px;
 }
 
 .card.social {
-  background-image: url('/public/images/icon-social.svg');
+  background-image: url('/images/icon-social.svg');
   background-repeat: no-repeat;
   background-color: var(--clr-social);
   background-position: top -12px right 20px;
 }
 
 .card.self-care {
-  background-image: url('/public/images/icon-self-care.svg');
+  background-image: url('/images/icon-self-care.svg');
   background-repeat: no-repeat;
   background-color: var(--clr-selfcare);
   background-position: top -12px right 20px;
