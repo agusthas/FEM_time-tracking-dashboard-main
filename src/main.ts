@@ -84,7 +84,8 @@ function addButtonEvents(data: Data[]): void {
 }
 
 // Fetch data for first time
-fetchData<Data[]>('/data.json')
+const BASE_URL = import.meta.env.BASE_URL; // will be the base URL from vite.config.ts
+fetchData<Data[]>(`${BASE_URL}/data.json`)
   .then((data) => {
     updateUI(data);
     addButtonEvents(data);
