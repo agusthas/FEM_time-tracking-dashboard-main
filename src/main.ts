@@ -56,8 +56,7 @@ const createCardElement = (type: keyof Timeframes, item: Data) => {
     <div class="data-wrapper">
       <div class="title">
         <h2>${item.title}</h2>
-        <img src="/images/icon-ellipsis.svg" alt="" />
-      </div>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg></div>
       <div class="time">
         <h2 class="curr-time">${'' + item.timeframes[type].current}hrs</h2>
         <span class="prev-time">Last ${text} - ${
